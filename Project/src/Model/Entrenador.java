@@ -11,4 +11,15 @@ public class Entrenador
     private String lugarNacimiento;
     private Medallas[] medallas;
     private Pokemon[] pokedex;
+
+    // Constructor : Metodo para crear objetos de la clase Entrenador.
+    public Entrenador(int id, String nombre, LocalDate fechaNacimiento, String lugarNacimiento, Medallas[] medallas, Pokemon[] pokedex)
+    {
+        this.id = id;
+        this.nombre = nombre;
+        this.fechaNacimiento = fechaNacimiento;
+        this.lugarNacimiento = lugarNacimiento;
+        this.medallas = medallas;
+        this.pokedex = pokedex;
+    }
 }
