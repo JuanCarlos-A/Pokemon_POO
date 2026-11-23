@@ -9,4 +9,5 @@ public class Pokemon
     private TiposPokemon[] tiposPokemon;
     private int nivel;
     private int vida;
+    private boolean capturado;
 }
