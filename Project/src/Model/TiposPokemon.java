@@ -18,8 +18,7 @@ public enum TiposPokemon
     PSIQUICO,
     HIELO,
     DRAGON,
-    OSCURIDAD,
+    SINIESTRO,
     HADA,
-    ESTELAR,
     DESCONOCIDO
 }
