@@ -1,24 +1,8 @@
-package Model;
+package src.Model;
 
-public enum TiposPokemon
+public class TiposPokemon
 {
-    NORMAL, 
-    PELEA,
-    VOLAR,
-    VENENO,
-    TIERRA,
-    PIEDRA,
-    INSECTO,
-    FANTASMA,
-    ACERO,
-    FUEGO,
-    AGUA,
-    HIERBA,
-    ELECTRICO,
-    PSIQUICO,
-    HIELO,
-    DRAGON,
-    SINIESTRO,
-    HADA,
-    DESCONOCIDO
+   // Atributos : Campos de los Tipos del Pokemon
+    private int id;
+    private String nombre;
 }

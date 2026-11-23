@@ -1,13 +1,8 @@
-package Model;
+package src.Model;
 
-public enum Medallas
+public class Medallas
 {
-    ROCA,
-    CASCADA,
-    TRUENO,
-    ARCOIRIS,
-    ALMA,
-    PANTANO,
-    VOLCAN,
-    TIERRA
+    // Atributos : Campos de las medallas.
+    private int id;
+    private String nombre;
 }

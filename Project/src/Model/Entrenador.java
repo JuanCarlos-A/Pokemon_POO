@@ -1,4 +1,4 @@
-package Model;
+package src.Model;
 // Importaciones
 import java.time.LocalDate;
 
